@@ -201,7 +201,7 @@ dns:
   - shark007.net
 proxy-providers:
   MODEM1:
-    type: file
+    type: http
     path: "./proxy_provider/modem1.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem1.yaml
     interval: 3600
@@ -210,7 +210,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 99
   MODEM2:
-    type: file
+    type: http
     path: "./proxy_provider/modem2.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem2.yaml
     interval: 3600
@@ -341,37 +341,37 @@ proxy-groups:
   interval: '99'
 rule-providers:
   Game:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/rule-game.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-game.yaml
     interval: 3600
   Sosmed:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/rule-sosmed.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-sosmed.yaml
     interval: 3600
   Stream:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/rule-stream.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-stream.yaml
     interval: 3600
   Olshop:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/rule-olshop.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-olshop.yaml
     interval: 3600
   Bank:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/rule-bank.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-bank.yaml
     interval: 3600
   Whatsapp:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/rule-whatsapp.yaml"
     url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-whatsapp.yaml
