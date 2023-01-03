@@ -203,7 +203,7 @@ proxy-providers:
   MODEM1:
     type: file
     path: "./proxy_provider/modem1.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem1.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem1.yaml
     interval: 3600
     health-check:
       enable: true
@@ -212,7 +212,7 @@ proxy-providers:
   MODEM2:
     type: file
     path: "./proxy_provider/modem2.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem2.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem2.yaml
     interval: 3600
     health-check:
       enable: true
@@ -344,37 +344,37 @@ rule-providers:
     type: file
     behavior: domain
     path: "./rule_provider/rule-game.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-game.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-game.yaml
     interval: 3600
   Sosmed:
     type: file
     behavior: domain
     path: "./rule_provider/rule-sosmed.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-sosmed.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-sosmed.yaml
     interval: 3600
   Stream:
     type: file
     behavior: domain
     path: "./rule_provider/rule-stream.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-stream.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-stream.yaml
     interval: 3600
   Olshop:
     type: file
     behavior: domain
     path: "./rule_provider/rule-olshop.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-olshop.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-olshop.yaml
     interval: 3600
   Bank:
     type: file
     behavior: domain
     path: "./rule_provider/rule-bank.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-bank.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-bank.yaml
     interval: 3600
   Whatsapp:
     type: file
     behavior: domain
     path: "./rule_provider/rule-whatsapp.yaml"
-    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-whatsapp.txt
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-whatsapp.yaml
     interval: 3600
 script:
   code: |
