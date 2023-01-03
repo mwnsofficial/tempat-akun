@@ -1,0 +1,25 @@
+proxies:
+- name: akun1
+  type: trojan
+  server: sgovh-trojan.bonds.id
+  port: 443
+  password: add5dfa0-8849-11ed-a6e5-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+- name: akun3
+  type: trojan
+  server: sg3-trojan.bonds.id
+  port: 443
+  password: e611a540-8848-11ed-bfb7-1239d0255272
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
+- name: premium-untukmu
+  server: ikubaru2.ujicoba.tech
+  type: trojan
+  port: 443
+  password: ccf7a4da-bee6-4976-b344-f0785b8134ff
+  udp: true
+  sni: meet.google.com
+  skip-cert-verify: true
