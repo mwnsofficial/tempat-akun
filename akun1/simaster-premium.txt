@@ -203,7 +203,7 @@ proxy-providers:
   MODEM1:
     type: file
     path: "./proxy_provider/modem1.yaml"
-    url: https://bit.ly/3PRCNPb
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem1.txt
     interval: 3600
     health-check:
       enable: true
@@ -212,7 +212,7 @@ proxy-providers:
   MODEM2:
     type: file
     path: "./proxy_provider/modem2.yaml"
-    url: http://bit.ly/3hUoj4w
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/modem2.txt
     interval: 3600
     health-check:
       enable: true
@@ -344,37 +344,37 @@ rule-providers:
     type: file
     behavior: domain
     path: "./rule_provider/rule-game.yaml"
-    url: https://bit.ly/3X2SvcL
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-game.txt
     interval: 3600
   Sosmed:
     type: file
     behavior: domain
     path: "./rule_provider/rule-sosmed.yaml"
-    url: https://bit.ly/3I4HG5I
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-sosmed.txt
     interval: 3600
   Stream:
     type: file
     behavior: domain
     path: "./rule_provider/rule-stream.yaml"
-    url: https://bit.ly/3PU6RJP
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-stream.txt
     interval: 3600
   Olshop:
     type: file
     behavior: domain
     path: "./rule_provider/rule-olshop.yaml"
-    url: https://bit.ly/3Wp85PH
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-olshop.txt
     interval: 3600
   Bank:
     type: file
     behavior: domain
     path: "./rule_provider/rule-bank.yaml"
-    url: https://bit.ly/3hN7JUh
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-bank.txt
     interval: 3600
   Whatsapp:
     type: file
     behavior: domain
     path: "./rule_provider/rule-whatsapp.yaml"
-    url: http://bit.ly/3Vkdh6g
+    url: https://raw.githubusercontent.com/mwnsofficial/tempat-akun/main/akun1/rule-whatsapp.txt
     interval: 3600
 script:
   code: |
